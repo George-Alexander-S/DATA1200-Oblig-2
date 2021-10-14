@@ -8,13 +8,19 @@
     font-weight: 600;
 }
 
+body {
+    background-image: url(img/BackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
 .Page1-Full {
     height: 100vh;
     padding: 10vh 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(223, 252, 253);
+    /* background-color: rgb(223, 252, 253); */
 }
 .Page1-Full h1 {
     position: absolute;
@@ -50,17 +56,21 @@
     padding: 10vh 0;
 }
 .Page-Sections {
-    width: 600px;
+    width: 700px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    padding: 30px;
+    background-color: rgba(43, 156, 145, 0.1);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
 }
 .Page-Sections p {
     padding: 10px;
     width: 90%;
-    background-color: rgb(159,239,231);
-    border: rgb(255, 255, 255) solid 3px;
+    background-color: rgb(54, 190, 177);
+    border: rgba(255, 255, 255, 0.2) solid 3px;
     border-radius: 5px;
     margin-top: -20px;
 }
