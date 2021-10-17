@@ -79,6 +79,7 @@ body {
     backdrop-filter: blur(10px);
 }
 .Page-Sections p {
+    font-family: sunnySpells;
     padding: 10px;
     width: 90%;
     background-color: rgb(54, 190, 177);
