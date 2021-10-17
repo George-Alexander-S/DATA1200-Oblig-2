@@ -8,6 +8,15 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: sunnySpells;
+    src: url(/fonts/SunnyspellsRegular-MV9ze.otf);
+}
+@font-face {
+    font-family: alloyInk;
+    src: url(/fonts/AlloyInk-nRLyO.ttf);
+}
+
 body {
     background-image: url(img/BackgroundImage.jpg);
     background-repeat: no-repeat;
@@ -23,15 +32,18 @@ body {
     /* background-color: rgb(223, 252, 253); */
 }
 .Page1-Full h1 {
+    font-family: alloyInk;
     position: absolute;
     top: 20%;
     left: 20%;
-    background-color: rgba(64, 224, 208, 0.9);
+    color: rgb(233, 221, 57);
+    background-color: rgba(64, 224, 208, 0.5);
     border: rgba(255, 255, 255, 0.2) solid 1px;
     border-radius: 5px;
-    padding: 20px;    
+    padding: 20px;
 }
 .Page1-Full p {
+    font-family: sunnySpells;
     position: absolute;
     width: 500px;
     background-color: rgba(54, 190, 177, 0.8);
@@ -119,5 +131,17 @@ body {
     }
     #Last-Section {
         margin-bottom: 25vh;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .Page1-Full h1 {
+        font-size: 100px;
+    }
+    .Page1-Full p {
+        font-size: 24px;
+    }
+    .Page-Full p {
+        font-size: 24px;
     }
 }
