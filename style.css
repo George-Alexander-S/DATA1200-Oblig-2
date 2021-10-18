@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: sunnySpells;
-    src: url(../fonts/SunnyspellsRegular-MV9ze.otf);
+    src: url(SunnyspellsRegular-MV9ze.otf);
 }
 @font-face {
     font-family: alloyInk;
-    src: url(../fonts/AlloyInk-nRLyO.ttf);
+    src: url(AlloyInk-nRLyO.ttf);
 }
 
 body {
